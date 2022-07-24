@@ -1,0 +1,50 @@
+.contacto-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 500px;
+    height: auto;
+    background-color:$titulo;
+    margin: 90px 50px 10px 50px;
+    padding: 20px;
+    border-radius: 25px;
+    h1 {
+        margin-top: 30px;
+    }
+}
+.form-number {
+    border: none;
+    width: 70px;
+    height: auto;
+}
+
+.form-contacto {
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.form-pago {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.btn-botones {
+    width: 90px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: aqua;
+}
